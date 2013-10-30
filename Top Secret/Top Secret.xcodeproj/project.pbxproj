@@ -21,6 +21,21 @@
 		3B9FE3EF182064BF000D1070 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9FE3D1182064BF000D1070 /* UIKit.framework */; };
 		3B9FE3F7182064BF000D1070 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B9FE3F5182064BF000D1070 /* InfoPlist.strings */; };
 		3B9FE3F9182064BF000D1070 /* Top_SecretTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE3F8182064BF000D1070 /* Top_SecretTests.m */; };
+		3B9FE40718214283000D1070 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE40618214283000D1070 /* UserModel.m */; };
+		3B9FE40A182143A9000D1070 /* ClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE409182143A9000D1070 /* ClassModel.m */; };
+		3B9FE40D182143DA000D1070 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE40C182143DA000D1070 /* QuestionModel.m */; };
+		3B9FE4101821443F000D1070 /* BattleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE40F1821443F000D1070 /* BattleModel.m */; };
+		3B9FE413182144C3000D1070 /* BattlePlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE412182144C3000D1070 /* BattlePlayerModel.m */; };
+		3B9FE416182145BC000D1070 /* AnnouncementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE415182145BC000D1070 /* AnnouncementModel.m */; };
+		3B9FE41A182146EF000D1070 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE418182146EF000D1070 /* MainMenuViewController.m */; };
+		3B9FE41B182146EF000D1070 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9FE419182146EF000D1070 /* MainMenuViewController.xib */; };
+		3B9FE41F182149E3000D1070 /* BattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE41D182149E3000D1070 /* BattleViewController.m */; };
+		3B9FE420182149E3000D1070 /* BattleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9FE41E182149E3000D1070 /* BattleViewController.xib */; };
+		3B9FE424182149FC000D1070 /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE422182149FC000D1070 /* LeaderboardViewController.m */; };
+		3B9FE425182149FC000D1070 /* LeaderboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9FE423182149FC000D1070 /* LeaderboardViewController.xib */; };
+		3B9FE42918214A21000D1070 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE42718214A21000D1070 /* ProfileViewController.m */; };
+		3B9FE42A18214A21000D1070 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9FE42818214A21000D1070 /* ProfileViewController.xib */; };
+		3B9FE42D18214AF3000D1070 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FE42C18214AF3000D1070 /* Store.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,32 @@
 		3B9FE3F4182064BF000D1070 /* Top SecretTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Top SecretTests-Info.plist"; sourceTree = "<group>"; };
 		3B9FE3F6182064BF000D1070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B9FE3F8182064BF000D1070 /* Top_SecretTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Top_SecretTests.m; sourceTree = "<group>"; };
+		3B9FE40518214283000D1070 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		3B9FE40618214283000D1070 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		3B9FE408182143A9000D1070 /* ClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassModel.h; sourceTree = "<group>"; };
+		3B9FE409182143A9000D1070 /* ClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassModel.m; sourceTree = "<group>"; };
+		3B9FE40B182143DA000D1070 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		3B9FE40C182143DA000D1070 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
+		3B9FE40E1821443F000D1070 /* BattleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleModel.h; sourceTree = "<group>"; };
+		3B9FE40F1821443F000D1070 /* BattleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleModel.m; sourceTree = "<group>"; };
+		3B9FE411182144C3000D1070 /* BattlePlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattlePlayerModel.h; sourceTree = "<group>"; };
+		3B9FE412182144C3000D1070 /* BattlePlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattlePlayerModel.m; sourceTree = "<group>"; };
+		3B9FE414182145BC000D1070 /* AnnouncementModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementModel.h; sourceTree = "<group>"; };
+		3B9FE415182145BC000D1070 /* AnnouncementModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementModel.m; sourceTree = "<group>"; };
+		3B9FE417182146EF000D1070 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		3B9FE418182146EF000D1070 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		3B9FE419182146EF000D1070 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		3B9FE41C182149E3000D1070 /* BattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleViewController.h; sourceTree = "<group>"; };
+		3B9FE41D182149E3000D1070 /* BattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleViewController.m; sourceTree = "<group>"; };
+		3B9FE41E182149E3000D1070 /* BattleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BattleViewController.xib; sourceTree = "<group>"; };
+		3B9FE421182149FC000D1070 /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardViewController.h; sourceTree = "<group>"; };
+		3B9FE422182149FC000D1070 /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardViewController.m; sourceTree = "<group>"; };
+		3B9FE423182149FC000D1070 /* LeaderboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderboardViewController.xib; sourceTree = "<group>"; };
+		3B9FE42618214A21000D1070 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		3B9FE42718214A21000D1070 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		3B9FE42818214A21000D1070 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		3B9FE42B18214AF3000D1070 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		3B9FE42C18214AF3000D1070 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +153,9 @@
 		3B9FE3D3182064BF000D1070 /* Top Secret */ = {
 			isa = PBXGroup;
 			children = (
+				3B9FE40418214220000D1070 /* Views */,
+				3B9FE40318214218000D1070 /* View Controllers */,
+				3B9FE40218214211000D1070 /* Models */,
 				3B9FE3DC182064BF000D1070 /* AppDelegate.h */,
 				3B9FE3DD182064BF000D1070 /* AppDelegate.m */,
 				3B9FE3DF182064BF000D1070 /* Main.storyboard */,
@@ -150,6 +194,53 @@
 				3B9FE3F5182064BF000D1070 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B9FE40218214211000D1070 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B9FE40518214283000D1070 /* UserModel.h */,
+				3B9FE40618214283000D1070 /* UserModel.m */,
+				3B9FE408182143A9000D1070 /* ClassModel.h */,
+				3B9FE409182143A9000D1070 /* ClassModel.m */,
+				3B9FE40B182143DA000D1070 /* QuestionModel.h */,
+				3B9FE40C182143DA000D1070 /* QuestionModel.m */,
+				3B9FE40E1821443F000D1070 /* BattleModel.h */,
+				3B9FE40F1821443F000D1070 /* BattleModel.m */,
+				3B9FE411182144C3000D1070 /* BattlePlayerModel.h */,
+				3B9FE412182144C3000D1070 /* BattlePlayerModel.m */,
+				3B9FE414182145BC000D1070 /* AnnouncementModel.h */,
+				3B9FE415182145BC000D1070 /* AnnouncementModel.m */,
+				3B9FE42B18214AF3000D1070 /* Store.h */,
+				3B9FE42C18214AF3000D1070 /* Store.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3B9FE40318214218000D1070 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B9FE417182146EF000D1070 /* MainMenuViewController.h */,
+				3B9FE418182146EF000D1070 /* MainMenuViewController.m */,
+				3B9FE41C182149E3000D1070 /* BattleViewController.h */,
+				3B9FE41D182149E3000D1070 /* BattleViewController.m */,
+				3B9FE421182149FC000D1070 /* LeaderboardViewController.h */,
+				3B9FE422182149FC000D1070 /* LeaderboardViewController.m */,
+				3B9FE42618214A21000D1070 /* ProfileViewController.h */,
+				3B9FE42718214A21000D1070 /* ProfileViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3B9FE40418214220000D1070 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B9FE419182146EF000D1070 /* MainMenuViewController.xib */,
+				3B9FE41E182149E3000D1070 /* BattleViewController.xib */,
+				3B9FE423182149FC000D1070 /* LeaderboardViewController.xib */,
+				3B9FE42818214A21000D1070 /* ProfileViewController.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +319,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9FE42A18214A21000D1070 /* ProfileViewController.xib in Resources */,
+				3B9FE425182149FC000D1070 /* LeaderboardViewController.xib in Resources */,
+				3B9FE420182149E3000D1070 /* BattleViewController.xib in Resources */,
+				3B9FE41B182146EF000D1070 /* MainMenuViewController.xib in Resources */,
 				3B9FE3E6182064BF000D1070 /* Images.xcassets in Resources */,
 				3B9FE3D8182064BF000D1070 /* InfoPlist.strings in Resources */,
 				3B9FE3E1182064BF000D1070 /* Main.storyboard in Resources */,
@@ -249,8 +344,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9FE413182144C3000D1070 /* BattlePlayerModel.m in Sources */,
 				3B9FE3E4182064BF000D1070 /* ViewController.m in Sources */,
+				3B9FE416182145BC000D1070 /* AnnouncementModel.m in Sources */,
+				3B9FE42D18214AF3000D1070 /* Store.m in Sources */,
+				3B9FE40D182143DA000D1070 /* QuestionModel.m in Sources */,
+				3B9FE41F182149E3000D1070 /* BattleViewController.m in Sources */,
+				3B9FE41A182146EF000D1070 /* MainMenuViewController.m in Sources */,
+				3B9FE424182149FC000D1070 /* LeaderboardViewController.m in Sources */,
+				3B9FE40A182143A9000D1070 /* ClassModel.m in Sources */,
+				3B9FE4101821443F000D1070 /* BattleModel.m in Sources */,
+				3B9FE42918214A21000D1070 /* ProfileViewController.m in Sources */,
 				3B9FE3DE182064BF000D1070 /* AppDelegate.m in Sources */,
+				3B9FE40718214283000D1070 /* UserModel.m in Sources */,
 				3B9FE3DA182064BF000D1070 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +566,7 @@
 				3B9FE3FE182064BF000D1070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B9FE3FF182064BF000D1070 /* Build configuration list for PBXNativeTarget "Top SecretTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +575,7 @@
 				3B9FE401182064BF000D1070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
